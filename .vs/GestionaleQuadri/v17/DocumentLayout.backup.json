@@ -1,0 +1,609 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\commesse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\commesse\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\models\\commesse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:models\\commesse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\models\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:models\\database.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\controllers\\prospettoquadricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:controllers\\prospettoquadricontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\controllers\\commessecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:controllers\\commessecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\wwwroot\\css\\my.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:wwwroot\\css\\my.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\sqlquery.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:sqlquery.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\commesse\\elenco.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\commesse\\elenco.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\controllers\\ciclodilavorocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:controllers\\ciclodilavorocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\dichiarazioneconformita\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\dichiarazioneconformita\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\prospettoquadri\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\prospettoquadri\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\wwwroot\\css\\sb-admin-2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:wwwroot\\css\\sb-admin-2.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\dashboard\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\models\\generale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:models\\generale.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\prospettoquadri\\newprospect.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\prospettoquadri\\newprospect.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\ciclodilavoro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\ciclodilavoro\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\spedizioni\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\spedizioni\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\firmadocumenti\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\firmadocumenti\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\wwwroot\\js\\sb-admin-2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:wwwroot\\js\\sb-admin-2.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\controllers\\dichiarazioneconformitacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:controllers\\dichiarazioneconformitacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\wwwroot\\vendor\\fontawesome-free\\css\\all.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:wwwroot\\vendor\\fontawesome-free\\css\\all.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\controllers\\spedizionicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:controllers\\spedizionicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\controllers\\firmadocumenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:controllers\\firmadocumenticontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\wwwroot\\vendor\\fontawesome-free\\css\\v4-shims.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:wwwroot\\vendor\\fontawesome-free\\css\\v4-shims.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:controllers\\dashboardcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\gestionalequadri.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:gestionalequadri.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\shared\\_validationscriptspartial.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|c:\\users\\peppe\\source\\repos\\gestionalequadri\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B6E6124A-C5EC-4169-8F43-DAB60859BDC8}|GestionaleQuadri.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 321,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{e5c86464-96be-4d7c-9a8b-abcb3bbf5f92}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "CommesseController.cs",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\CommesseController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CommesseController.cs",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\CommesseController.cs",
+              "RelativeToolTip": "Controllers\\CommesseController.cs",
+              "ViewState": "AgIAAAQAAAAAAAAAAAD4vxgAAABMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T22:05:49.324Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "CicloDiLavoroController.cs",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\CicloDiLavoroController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CicloDiLavoroController.cs",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\CicloDiLavoroController.cs",
+              "RelativeToolTip": "Controllers\\CicloDiLavoroController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T21:15:46.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\Commesse\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Commesse\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\Commesse\\Index.cshtml*",
+              "RelativeToolTip": "Views\\Commesse\\Index.cshtml*",
+              "ViewState": "AgIAAJQAAAAAAAAAAAAiwL8AAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T22:05:59.915Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "NewProspect.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\ProspettoQuadri\\NewProspect.cshtml",
+              "RelativeDocumentMoniker": "Views\\ProspettoQuadri\\NewProspect.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\ProspettoQuadri\\NewProspect.cshtml",
+              "RelativeToolTip": "Views\\ProspettoQuadri\\NewProspect.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T09:01:31.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Elenco.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\Commesse\\Elenco.cshtml",
+              "RelativeDocumentMoniker": "Views\\Commesse\\Elenco.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\Commesse\\Elenco.cshtml",
+              "RelativeToolTip": "Views\\Commesse\\Elenco.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-25T11:49:09.167Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Database.cs",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Models\\Database.cs",
+              "RelativeDocumentMoniker": "Models\\Database.cs",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Models\\Database.cs",
+              "RelativeToolTip": "Models\\Database.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAArwCcAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T07:06:37.941Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Commesse.cs",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Models\\Commesse.cs",
+              "RelativeDocumentMoniker": "Models\\Commesse.cs",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Models\\Commesse.cs",
+              "RelativeToolTip": "Models\\Commesse.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAWwF0AAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T22:25:39.527Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAAABIAAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T21:20:07.551Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ProspettoQuadriController.cs",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\ProspettoQuadriController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProspettoQuadriController.cs",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\ProspettoQuadriController.cs",
+              "RelativeToolTip": "Controllers\\ProspettoQuadriController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:56:36.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Models\\ErrorViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Models\\ErrorViewModel.cs",
+              "RelativeToolTip": "Models\\ErrorViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T22:10:52.296Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\DichiarazioneConformita\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\DichiarazioneConformita\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\DichiarazioneConformita\\Index.cshtml",
+              "RelativeToolTip": "Views\\DichiarazioneConformita\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T21:30:35.109Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "sb-admin-2.css",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\css\\sb-admin-2.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\sb-admin-2.css",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\css\\sb-admin-2.css",
+              "RelativeToolTip": "wwwroot\\css\\sb-admin-2.css",
+              "ViewState": "AgIAAP4oAAAAAAAAAAAcwAgpAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-22T21:40:35.028Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "my.css",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\css\\my.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\my.css",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\css\\my.css",
+              "RelativeToolTip": "wwwroot\\css\\my.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-27T07:39:40.759Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "bootstrap.css",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+              "ViewState": "AgIAANQrAAAAAAAAAAAAANQrAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-22T21:44:01.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "SqlQuery.sql",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\SqlQuery.sql",
+              "RelativeDocumentMoniker": "SqlQuery.sql",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\SqlQuery.sql",
+              "RelativeToolTip": "SqlQuery.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-27T10:33:22.311Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\ProspettoQuadri\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\ProspettoQuadri\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\ProspettoQuadri\\Index.cshtml",
+              "RelativeToolTip": "Views\\ProspettoQuadri\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T08:56:45.479Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Generale.cs",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Models\\Generale.cs",
+              "RelativeDocumentMoniker": "Models\\Generale.cs",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Models\\Generale.cs",
+              "RelativeToolTip": "Models\\Generale.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-26T07:06:15.705Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\Dashboard\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Dashboard\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\Dashboard\\Index.cshtml",
+              "RelativeToolTip": "Views\\Dashboard\\Index.cshtml",
+              "ViewState": "AgIAAE8BAAAAAAAAAADwv2UBAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T21:57:10.98Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\Spedizioni\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Spedizioni\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\Spedizioni\\Index.cshtml",
+              "RelativeToolTip": "Views\\Spedizioni\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T08:45:16.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\FirmaDocumenti\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\FirmaDocumenti\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\FirmaDocumenti\\Index.cshtml",
+              "RelativeToolTip": "Views\\FirmaDocumenti\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-22T08:43:19.298Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\CicloDiLavoro\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\CicloDiLavoro\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\CicloDiLavoro\\Index.cshtml",
+              "RelativeToolTip": "Views\\CicloDiLavoro\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T21:17:20.921Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T22:44:21.043Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "sb-admin-2.js",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\js\\sb-admin-2.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\sb-admin-2.js",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\js\\sb-admin-2.js",
+              "RelativeToolTip": "wwwroot\\js\\sb-admin-2.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-24T06:25:27.436Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "site.js",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\js\\site.js",
+              "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\js\\site.js",
+              "RelativeToolTip": "wwwroot\\js\\site.js",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2025-05-24T06:25:25.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "all.css",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\vendor\\fontawesome-free\\css\\all.css",
+              "RelativeDocumentMoniker": "wwwroot\\vendor\\fontawesome-free\\css\\all.css",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\vendor\\fontawesome-free\\css\\all.css",
+              "RelativeToolTip": "wwwroot\\vendor\\fontawesome-free\\css\\all.css",
+              "ViewState": "AgIAAK8IAAAAAAAAAAAjwA8JAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-21T22:22:55.557Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "DichiarazioneConformitaController.cs",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\DichiarazioneConformitaController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DichiarazioneConformitaController.cs",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\DichiarazioneConformitaController.cs",
+              "RelativeToolTip": "Controllers\\DichiarazioneConformitaController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T07:53:55.301Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "site.css",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\css\\site.css",
+              "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\css\\site.css",
+              "RelativeToolTip": "wwwroot\\css\\site.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-22T21:43:52.463Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "bootstrap-grid.css",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeDocumentMoniker": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "RelativeToolTip": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-22T21:44:02.806Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SpedizioniController.cs",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\SpedizioniController.cs",
+              "RelativeDocumentMoniker": "Controllers\\SpedizioniController.cs",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\SpedizioniController.cs",
+              "RelativeToolTip": "Controllers\\SpedizioniController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:45:08.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "FirmaDocumentiController.cs",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\FirmaDocumentiController.cs",
+              "RelativeDocumentMoniker": "Controllers\\FirmaDocumentiController.cs",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\FirmaDocumentiController.cs",
+              "RelativeToolTip": "Controllers\\FirmaDocumentiController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-22T08:43:09.269Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "DashboardController.cs",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\DashboardController.cs",
+              "RelativeDocumentMoniker": "Controllers\\DashboardController.cs",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Controllers\\DashboardController.cs",
+              "RelativeToolTip": "Controllers\\DashboardController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T21:56:53.045Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "v4-shims.css",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\vendor\\fontawesome-free\\css\\v4-shims.css",
+              "RelativeDocumentMoniker": "wwwroot\\vendor\\fontawesome-free\\css\\v4-shims.css",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\wwwroot\\vendor\\fontawesome-free\\css\\v4-shims.css",
+              "RelativeToolTip": "wwwroot\\vendor\\fontawesome-free\\css\\v4-shims.css",
+              "ViewState": "AgIAAOQAAAAAAAAAACBjwEIAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2025-05-21T22:21:12.807Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "_ValidationScriptsPartial.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T21:20:10.064Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T21:20:02.159Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GestionaleQuadri",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\GestionaleQuadri.csproj",
+              "RelativeDocumentMoniker": "GestionaleQuadri.csproj",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\GestionaleQuadri.csproj",
+              "RelativeToolTip": "GestionaleQuadri.csproj",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-21T21:46:48.573Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Peppe\\source\\repos\\GestionaleQuadri\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-05-21T21:20:00.102Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
