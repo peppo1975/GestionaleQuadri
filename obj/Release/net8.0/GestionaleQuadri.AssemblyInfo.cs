@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("GestionaleQuadri")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+3cedf2dde68fb0f45aa6ac636c1eeb33d1003b11")]
 [assembly: System.Reflection.AssemblyProductAttribute("GestionaleQuadri")]
 [assembly: System.Reflection.AssemblyTitleAttribute("GestionaleQuadri")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

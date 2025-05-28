@@ -269,3 +269,4 @@ C:\Users\Peppe\source\repos\GestionaleQuadri\obj\Release\net8.0\refint\Gestional
 C:\Users\Peppe\source\repos\GestionaleQuadri\obj\Release\net8.0\GestionaleQuadri.pdb
 C:\Users\Peppe\source\repos\GestionaleQuadri\obj\Release\net8.0\GestionaleQuadri.genruntimeconfig.cache
 C:\Users\Peppe\source\repos\GestionaleQuadri\obj\Release\net8.0\ref\GestionaleQuadri.dll
+C:\Users\Peppe\source\repos\GestionaleQuadri\obj\Release\net8.0\GestionaleQuadri.sourcelink.json
