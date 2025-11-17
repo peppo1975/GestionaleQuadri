@@ -1,0 +1,6 @@
+<Database>
+    <Server>localhost</Server>
+    <Username>sa</Username>
+    <Password>peppe</Password>
+    <Db>gestionale_quadri</Db>
+</Database>

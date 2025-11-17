@@ -1,0 +1,8 @@
+.pointer {
+    cursor: pointer
+}
+
+.text-green:hover {
+/*    color: yellowgreen;*/
+    font-weight: bold
+}
