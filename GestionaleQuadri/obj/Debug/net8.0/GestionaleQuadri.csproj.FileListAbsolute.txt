@@ -82,3 +82,4 @@ E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\obj\Debug\net8.0\refint\G
 E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\obj\Debug\net8.0\GestionaleQuadri.pdb
 E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\obj\Debug\net8.0\GestionaleQuadri.genruntimeconfig.cache
 E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\obj\Debug\net8.0\ref\GestionaleQuadri.dll
+E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\obj\Debug\net8.0\GestionaleQuadri.sourcelink.json

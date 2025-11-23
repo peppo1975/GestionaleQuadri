@@ -24,7 +24,7 @@ namespace GestionaleQuadri.Controllers
         {
             ViewCommessa vc = new ViewCommessa();
 
-            string query = "SELECT nome_azienda, anno \r\nFROM gestionale_quadri.commesse\r\n    JOIN gestionale_quadri.aziende\r\n        ON gestionale_quadri.aziende.azienda = gestionale_quadri.commesse.azienda\r\ngroup by nome_azienda, anno\r\norder by anno desc, nome_azienda asc";
+            string query = "SELECT commesse.azienda,\r\n       nome_azienda,\r\n       anno\r\nFROM   gestionale_quadri.commesse\r\n       JOIN gestionale_quadri.aziende\r\n         ON gestionale_quadri.aziende.azienda = gestionale_quadri.commesse.azienda\r\nGROUP  BY nome_azienda,\r\n          anno,\r\n          commesse.azienda\r\nORDER  BY anno DESC,\r\n          nome_azienda ASC";
 
             List<AnnoAzienda> aa = DatabaseController.SELECT_GET_LIST<AnnoAzienda>(query);
 
@@ -37,14 +37,17 @@ namespace GestionaleQuadri.Controllers
             return View();
         }
 
-        //public IActionResult Color(int id)
-        public JsonResult Color(int id)
+
+        public IActionResult Color()
         {
-            string query = "SELECT * FROM Agenti";
+            return View();
+        }
 
-            List<Agente> s = DatabaseController.SELECT_GET_LIST<Agente>(query);
+        //public IActionResult Color(int id)
 
-            return Json(s);
+        public ActionResult ColorPassaggio()
+        {
+            return View();
         }
 
 

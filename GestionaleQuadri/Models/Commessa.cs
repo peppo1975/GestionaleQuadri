@@ -64,5 +64,18 @@
     public class Commitente
     {
         public string nome_commessa {  get; set; } = string.Empty;
+        public string commessa {  get; set; } = string.Empty;
+
+        public int indice_commessa { get; set; } = 0;
+
+        public int anno {  get; set; } = 0; 
+    }
+
+
+    public class Quadro
+    {
+        public string nome_quadro { get; set; } = string.Empty; 
+        public string odl { get; set; }
+        public string data_ciclo_lavoro { get; set; }
     }
 }

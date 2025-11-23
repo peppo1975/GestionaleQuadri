@@ -168,6 +168,7 @@
         <div class="modal-header">
             @*<span class="close">&times;</span>*@
             <h2 id="nome-azienda-modale">Modal Header</h2>
+            <input type="text" class="form-control" id="findCommessa" placeholder="CERCA" style="width:30%">
             <button type="button" class="btn-close close" data-bs-dismiss="modals" aria-label="Close"></button>
         </div>
         <div class="modal-body" id="modal-body">
@@ -179,10 +180,29 @@
         </div>
     </div>
 </div>
+
+
+<div id="myModal2" class="modals">
+    <!-- Modal content -->
+    <div class="modal-contents">
+        <div class="modal-header">
+            @*<span class="close">&times;</span>*@
+            <h2 id="nome-azienda-modale">Modal Header</h2>
+
+            <button type="button" class="btn-close close" data-bs-dismiss="modals" aria-label="Close"></button>
+        </div>
+        <div class="modal-body" id="modal-body-2">
+            <p>Some text in the Modal Body</p>
+            <p>Some other text...</p>
+        </div>
+        <div class="modal-footer">
+            <h3>Modal Footer</h3>
+        </div>
+    </div>
+</div>
+
 <script>
     class Commessa {
-
-
 
         constructor() {
             this.objects();
@@ -239,7 +259,11 @@
             Object.keys(modalList).forEach((i) => {
                 modalList[i].addEventListener('click', async function () {
 
+                    modal_body.innerHTML = '<div class="spinner-border" role="status"><span class="visually-hidden"></span></div >';
+                    nome_azienda_modale.innerHTML = "";
+
                     modal.style.display = "block";
+
                     let anno = modalList[i].getAttribute("anno");
                     let azienda = modalList[i].getAttribute("azienda");
                     let nome = modalList[i].innerHTML;
@@ -247,7 +271,7 @@
                     const response = await fetch("/Commesse/AziendeAnnoCommesse/?anno=" + anno + "&azienda=" + azienda);
                     const result = await response.json();
 
-                    modal_body.innerHTML = "";
+
                     numeroRighe = result.length;
                     nome_azienda_modale.innerHTML = nome + " " + anno + "  (" + numeroRighe + ")";
 
@@ -257,18 +281,18 @@
 
                     table.appendChild(tbody);
                     table.appendChild(tableThead);
-                    
 
 
 
+                    modal_body.innerHTML = "";
                     modal_body.appendChild(table);
                     table.classList.add("table");
                     table.classList.add("table-striped");
                     table.classList.add("table-sm");
 
-                    
 
-                   
+
+
 
                     let titoli = ["offerta n.", "committente", "note", "nome quadro", "ODL", "data apertura", "MRC"];
                     let theadRow = document.createElement("tr");
@@ -279,14 +303,24 @@
                     });
 
 
-                  
+
 
 
 
                     Object.keys(result).forEach((k) => {
+
                         let row = document.createElement("tr");
+
+                        row.setAttribute("commessa_n", result[k].commessa);
+
+                        row.classList.add("row_commessa");
+
                         titoli.forEach((j) => {
                             let td = document.createElement("td");
+                            if (j == titoli[0]) {
+                                td.innerHTML = T.calcolaOfferta(anno, result[k].indice_commessa, azienda);
+                            }
+
                             if (j == titoli[1]) {
                                 td.innerHTML = result[k].nome_commessa;
                             }
@@ -297,10 +331,7 @@
 
                     tableThead.appendChild(theadRow);
 
-                    
-                    //table.appendChild(tbody);
-                    //modal_body.appendChild(table);
-                 
+                    T.testRow();
 
                 });
 
@@ -319,6 +350,59 @@
 
     }
 
+    class T {
+        static testRow() {
+
+            let row_commessa = document.getElementsByClassName("row_commessa");
+            let modal2 = document.getElementById("myModal2");
+            let span2 = document.getElementsByClassName("close")[1];
+            let commessa_n = "";
+            let modal_body_2 = document.getElementById("modal-body-2");
+
+            Object.keys(row_commessa).forEach((i) => {
+
+                row_commessa[i].addEventListener('click', async function (e) {
+
+
+
+                    commessa_n = this.getAttribute("commessa_n");
+                    const response = await fetch("/Commesse/CommessaDettaglio/" + commessa_n);
+                    const result = await response.json();
+                    modal_body_2.innerHTML = await JSON.stringify(result);
+                    modal2.style.display = "block";
+
+
+                });
+            });
+
+
+            span2.onclick = function () {
+                modal2.style.display = "none";
+            }
+        }
+
+        static calcolaOfferta(anno, indice_commessa, azienda) {
+
+            let res = "";
+            let anno_sub = anno.substring(2, 4);
+
+            switch (azienda) {
+                case "1":
+                case "2":
+                case "3":
+                    res = `P/Q${indice_commessa}-${anno_sub}`;
+                    break;
+
+                case "4":
+                    res = `COMM.${indice_commessa}-${anno_sub}`;
+                    break;
+            }
+
+            return res;
+        }
+
+    }
+
 </script>
 <script>
     class Tabella {
@@ -329,25 +413,7 @@
         }
 
 
-        crea() {
-            //let modal_body = document.getElementById("modal-body");
-            // modal_body.innerHTML = "";
 
-            //let table =document.createElement("table");
-            // table.classList.add("table");
-            // table.classList.add("table-striped");
-            // table.classList.add("table-sm");
-
-            // let thead = document.createElement("thead");
-            // let titoli = ["offerta n.", "committente","note", "nome quadro", "ODL", "data apertura", "MRC"];
-            // let theadRow = document.createElement("tr");
-            // titoli.forEach((i=>{
-            // console.log("qui");
-            // });
-
-            // table.appendChild(thead);
-            // modal_body.appendChild(table);
-        }
 
 
     }
@@ -356,6 +422,7 @@
     //collapse
     let anno = document.getElementsByClassName("collapsible");
     let modalList;
+    let findCommessa = document.getElementById("findCommessa");
     const comm = new Commessa();
 
     Object.keys(anno).forEach((i) => {
@@ -382,6 +449,57 @@
             modalList = document.getElementsByClassName("modal-list");
             await comm.avviaModale(modalList);
 
+
+
         });
 
-    });</script>
+    });
+
+    findCommessa.addEventListener('keyup', async function (e) {
+        let search = e.srcElement.value;
+        let row_commessa = document.getElementsByClassName("row_commessa");
+        let listRowsView = [];
+        let listRowsHide = [];
+        await Object.keys(row_commessa).forEach(async function (i) {
+            console.log(row_commessa[i]);
+            let colonneTD = row_commessa[i].getElementsByTagName("td");
+            let is_present = false;
+            for (j = 0; j < row_commessa[i].childNodes.length; j++) {
+                let cella = colonneTD[j].innerHTML;
+                if (cella == "") {
+                    continue;
+                }
+                console.log(cella);
+
+                let index = cella.toLowerCase().indexOf(search.toLowerCase());
+                console.log(index);
+                if (index >= 0) {
+                    is_present = true;
+                    listRowsView.push(i);
+
+                }
+            }
+
+            if (!is_present) {
+                listRowsHide.push(i);
+            }
+            //else {
+            //    row_commessa[i].style.display = null;
+            //}
+        });
+
+        setTimeout(() => {
+
+            listRowsView.forEach((i) => {
+                row_commessa[i].style.display = null;
+            });
+
+            listRowsHide.forEach((i) => {
+                row_commessa[i].style.display = 'none';
+            });
+        }, 100);
+
+
+    });
+
+</script>
