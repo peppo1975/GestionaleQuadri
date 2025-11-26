@@ -314,6 +314,8 @@
                         row.setAttribute("commessa_n", result[k].commessa);
 
                         row.classList.add("row_commessa");
+                        row.classList.add("pointer");
+                        row.classList.add("text-green");
 
                         titoli.forEach((j) => {
                             let td = document.createElement("td");
@@ -363,14 +365,12 @@
 
                 row_commessa[i].addEventListener('click', async function (e) {
 
-
-
                     commessa_n = this.getAttribute("commessa_n");
                     const response = await fetch("/Commesse/CommessaDettaglio/" + commessa_n);
                     const result = await response.json();
                     modal_body_2.innerHTML = await JSON.stringify(result);
+                    var t = new Tabella();
                     modal2.style.display = "block";
-
 
                 });
             });
@@ -378,6 +378,12 @@
 
             span2.onclick = function () {
                 modal2.style.display = "none";
+            }
+
+            window.onclick = function (event) {
+                if (event.target == modal2) {
+                    modal2.style.display = "none";
+                }
             }
         }
 
@@ -406,14 +412,19 @@
 </script>
 <script>
     class Tabella {
-        constructor(result, modal_body) {
-            this.result = result;
-            this.modal_body = modal_body;
+        //constructor(result, modal_body) {
+        //    this.result = result;
+        //    this.modal_body = modal_body;
+        //    this.crea();
+        //}
+        constructor() {
             this.crea();
         }
 
 
-
+        crea() {
+            alert("test");
+        }
 
 
     }
@@ -461,31 +472,41 @@
         let listRowsView = [];
         let listRowsHide = [];
         await Object.keys(row_commessa).forEach(async function (i) {
+
             console.log(row_commessa[i]);
+
             let colonneTD = row_commessa[i].getElementsByTagName("td");
+
             let is_present = false;
+
             for (j = 0; j < row_commessa[i].childNodes.length; j++) {
+
                 let cella = colonneTD[j].innerHTML;
+
                 if (cella == "") {
+
                     continue;
                 }
+
                 console.log(cella);
 
                 let index = cella.toLowerCase().indexOf(search.toLowerCase());
-                console.log(index);
-                if (index >= 0) {
-                    is_present = true;
-                    listRowsView.push(i);
 
+                console.log(index);
+
+                if (index >= 0) {
+
+                    is_present = true;
+
+                    listRowsView.push(i);
                 }
             }
 
             if (!is_present) {
+
                 listRowsHide.push(i);
             }
-            //else {
-            //    row_commessa[i].style.display = null;
-            //}
+
         });
 
         setTimeout(() => {
