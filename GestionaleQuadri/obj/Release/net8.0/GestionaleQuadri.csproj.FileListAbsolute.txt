@@ -82,3 +82,4 @@ E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\obj\Release\net8.0\Gestio
 E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\obj\Release\net8.0\Gestiona.56B1A65C.Up2Date
 E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\bin\Release\net8.0\System.Text.Encodings.Web.dll
 E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\bin\Release\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\obj\Release\net8.0\GestionaleQuadri.sourcelink.json

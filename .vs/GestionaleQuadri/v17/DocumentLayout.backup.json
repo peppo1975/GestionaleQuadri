@@ -45,9 +45,9 @@
               "Title": "Commesse.cshtml",
               "DocumentMoniker": "E:\\User\\source\\repos\\GestionaleQuadri\\GestionaleQuadri\\Views\\ControlPanel\\Commesse.cshtml",
               "RelativeDocumentMoniker": "GestionaleQuadri\\Views\\ControlPanel\\Commesse.cshtml",
-              "ToolTip": "E:\\User\\source\\repos\\GestionaleQuadri\\GestionaleQuadri\\Views\\ControlPanel\\Commesse.cshtml*",
-              "RelativeToolTip": "GestionaleQuadri\\Views\\ControlPanel\\Commesse.cshtml*",
-              "ViewState": "AgIAAOMBAAAAAAAAAAAswA0CAAAJAAAAAAAAAA==",
+              "ToolTip": "E:\\User\\source\\repos\\GestionaleQuadri\\GestionaleQuadri\\Views\\ControlPanel\\Commesse.cshtml",
+              "RelativeToolTip": "GestionaleQuadri\\Views\\ControlPanel\\Commesse.cshtml",
+              "ViewState": "AgIAAOMBAAAAAAAAAAAwwO0BAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-26T20:45:23.92Z",
               "EditorCaption": ""
@@ -62,8 +62,7 @@
               "RelativeToolTip": "GestionaleQuadri\\Controllers\\ControlPanelController.cs",
               "ViewState": "AgIAAAYAAAAAAAAAAAAAABYAAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T20:45:10.15Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T20:45:10.15Z"
             },
             {
               "$type": "Document",
@@ -75,8 +74,7 @@
               "RelativeToolTip": "GestionaleQuadri\\Controllers\\CommesseController.cs",
               "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T20:45:05.193Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T20:45:05.193Z"
             },
             {
               "$type": "Document",
@@ -86,8 +84,7 @@
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ViewState": "AgIAAPsUAAAAAAAAAAAvwBEVAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
-              "WhenOpened": "2025-11-26T20:37:29.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T20:37:29.979Z"
             },
             {
               "$type": "Document",
@@ -99,8 +96,7 @@
               "RelativeToolTip": "GestionaleQuadri\\Views\\ControlPanel\\ColorPassaggio.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-26T20:12:08.41Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-11-26T20:12:08.41Z"
             }
           ]
         }

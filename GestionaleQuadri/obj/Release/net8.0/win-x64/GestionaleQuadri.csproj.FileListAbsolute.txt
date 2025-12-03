@@ -75,3 +75,4 @@ E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\bin\Release\net8.0\win-x6
 E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\obj\Release\net8.0\win-x64\GestionaleQuadri.csproj.AssemblyReference.cache
 E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\obj\Release\net8.0\win-x64\Gestiona.56B1A65C.Up2Date
 E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\bin\Release\net8.0\win-x64\System.Text.Encodings.Web.dll
+E:\User\source\repos\GestionaleQuadri\GestionaleQuadri\obj\Release\net8.0\win-x64\GestionaleQuadri.sourcelink.json
