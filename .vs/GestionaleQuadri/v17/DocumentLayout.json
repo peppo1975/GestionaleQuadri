@@ -7,12 +7,20 @@
       "RelativeMoniker": "D:0:0:{EC1C8180-A745-4D8A-A50E-314D7F637EFD}|GestionaleQuadri\\GestionaleQuadri.csproj|solutionrelative:gestionalequadri\\views\\controlpanel\\commesse.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{EC1C8180-A745-4D8A-A50E-314D7F637EFD}|GestionaleQuadri\\GestionaleQuadri.csproj|e:\\user\\source\\repos\\gestionalequadri\\gestionalequadri\\controllers\\controlpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{EC1C8180-A745-4D8A-A50E-314D7F637EFD}|GestionaleQuadri\\GestionaleQuadri.csproj|solutionrelative:gestionalequadri\\controllers\\controlpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{EC1C8180-A745-4D8A-A50E-314D7F637EFD}|GestionaleQuadri\\GestionaleQuadri.csproj|e:\\user\\source\\repos\\gestionalequadri\\gestionalequadri\\models\\commessa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1C8180-A745-4D8A-A50E-314D7F637EFD}|GestionaleQuadri\\GestionaleQuadri.csproj|solutionrelative:gestionalequadri\\models\\commessa.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{EC1C8180-A745-4D8A-A50E-314D7F637EFD}|GestionaleQuadri\\GestionaleQuadri.csproj|e:\\user\\source\\repos\\gestionalequadri\\gestionalequadri\\controllers\\commessecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC1C8180-A745-4D8A-A50E-314D7F637EFD}|GestionaleQuadri\\GestionaleQuadri.csproj|solutionrelative:gestionalequadri\\controllers\\commessecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1C8180-A745-4D8A-A50E-314D7F637EFD}|GestionaleQuadri\\GestionaleQuadri.csproj|e:\\user\\source\\repos\\gestionalequadri\\gestionalequadri\\controllers\\controlpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{EC1C8180-A745-4D8A-A50E-314D7F637EFD}|GestionaleQuadri\\GestionaleQuadri.csproj|solutionrelative:gestionalequadri\\controllers\\controlpanelcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{EC1C8180-A745-4D8A-A50E-314D7F637EFD}|GestionaleQuadri\\GestionaleQuadri.csproj|e:\\user\\source\\repos\\gestionalequadri\\gestionalequadri\\wwwroot\\connection.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{EC1C8180-A745-4D8A-A50E-314D7F637EFD}|GestionaleQuadri\\GestionaleQuadri.csproj|solutionrelative:gestionalequadri\\wwwroot\\connection.xml||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
@@ -29,7 +37,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Bookmark",
@@ -41,20 +49,45 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Commessa.cs",
+              "DocumentMoniker": "E:\\User\\source\\repos\\GestionaleQuadri\\GestionaleQuadri\\Models\\Commessa.cs",
+              "RelativeDocumentMoniker": "GestionaleQuadri\\Models\\Commessa.cs",
+              "ToolTip": "E:\\User\\source\\repos\\GestionaleQuadri\\GestionaleQuadri\\Models\\Commessa.cs",
+              "RelativeToolTip": "GestionaleQuadri\\Models\\Commessa.cs",
+              "ViewState": "AgIAADcAAAAAAAAAAAAwwEkAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-12-04T13:00:24.521Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "connection.xml",
+              "DocumentMoniker": "E:\\User\\source\\repos\\GestionaleQuadri\\GestionaleQuadri\\wwwroot\\connection.xml",
+              "RelativeDocumentMoniker": "GestionaleQuadri\\wwwroot\\connection.xml",
+              "ToolTip": "E:\\User\\source\\repos\\GestionaleQuadri\\GestionaleQuadri\\wwwroot\\connection.xml",
+              "RelativeToolTip": "GestionaleQuadri\\wwwroot\\connection.xml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003576|",
+              "WhenOpened": "2025-12-03T19:14:01.072Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Commesse.cshtml",
               "DocumentMoniker": "E:\\User\\source\\repos\\GestionaleQuadri\\GestionaleQuadri\\Views\\ControlPanel\\Commesse.cshtml",
               "RelativeDocumentMoniker": "GestionaleQuadri\\Views\\ControlPanel\\Commesse.cshtml",
               "ToolTip": "E:\\User\\source\\repos\\GestionaleQuadri\\GestionaleQuadri\\Views\\ControlPanel\\Commesse.cshtml",
               "RelativeToolTip": "GestionaleQuadri\\Views\\ControlPanel\\Commesse.cshtml",
-              "ViewState": "AgIAAOMBAAAAAAAAAAAwwPcBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADkBAAAAAAAAAAAgwDUBAABBAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-26T20:45:23.92Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "ControlPanelController.cs",
               "DocumentMoniker": "E:\\User\\source\\repos\\GestionaleQuadri\\GestionaleQuadri\\Controllers\\ControlPanelController.cs",
               "RelativeDocumentMoniker": "GestionaleQuadri\\Controllers\\ControlPanelController.cs",
@@ -72,13 +105,14 @@
               "RelativeDocumentMoniker": "GestionaleQuadri\\Controllers\\CommesseController.cs",
               "ToolTip": "E:\\User\\source\\repos\\GestionaleQuadri\\GestionaleQuadri\\Controllers\\CommesseController.cs",
               "RelativeToolTip": "GestionaleQuadri\\Controllers\\CommesseController.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAYwAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACIAAAAAAAAAAAAvwEkAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-26T20:45:05.193Z"
+              "WhenOpened": "2025-11-26T20:45:05.193Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "Microsoft.Common.CurrentVersion.targets",
               "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
               "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
@@ -88,7 +122,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ColorPassaggio.cshtml",
               "DocumentMoniker": "E:\\User\\source\\repos\\GestionaleQuadri\\GestionaleQuadri\\Views\\ControlPanel\\ColorPassaggio.cshtml",
               "RelativeDocumentMoniker": "GestionaleQuadri\\Views\\ControlPanel\\ColorPassaggio.cshtml",

@@ -32,11 +32,27 @@ namespace GestionaleQuadri.Controllers
         public JsonResult AziendeAnnoCommesse(string anno, string azienda)
         {
             List<Commitente> cm = new List<Commitente>();
-            string query = $"SELECT * FROM [gestionale_quadri].[commesse] " +
+            List<Commitente> distinct = new List<Commitente>();
+            string query = $"SELECT *, (SELECT COUNT(commessa) FROM gestionale_quadri.quadri WHERE gestionale_quadri.quadri.commessa = gestionale_quadri.commesse.commessa) as num_quadri   FROM [gestionale_quadri].[commesse] " +
                                 $" WHERE anno = '{anno}' AND azienda = '{azienda}' AND ciclo_lavoro = 'Y' " +
                                 $" ORDER BY COMMESSA desc";
 
+
+            //string query = $"SELECT gestionale_quadri.commesse.* " +
+            //                " FROM   gestionale_quadri.[commesse] " +
+            //                "       INNER JOIN gestionale_quadri.quadri " +
+            //                "               ON gestionale_quadri.quadri.commessa = " +
+            //                "                  gestionale_quadri.commesse.commessa " +
+            //                $" WHERE  anno = '{anno}' " +
+            //                $"       AND azienda = '{azienda}' " +
+            //                "       AND ciclo_lavoro = 'Y' " +
+            //                "ORDER  BY gestionale_quadri.commesse.commessa DESC ";
+
+
             cm = DatabaseController.SELECT_GET_LIST<Commitente>(query);
+
+           // distinct = cm.GroupBy(x=>x.commessa).Select(grp => grp.FirstOrDefault()).ToList();
+
             return Json(cm);
         }
 
@@ -52,6 +68,9 @@ namespace GestionaleQuadri.Controllers
                 $"  AND" +
                 $"  \"@commesse\".ciclo_lavoro = 'Y'\r\n       ORDER BY\r\n                        \"@quadri\".data_inserimento DESC\r\n                        , \"@quadri\".quadro ASC";
             q = DatabaseController.SELECT_GET_LIST<Quadro>(query);
+
+
+
             return Json(q);
 
         }

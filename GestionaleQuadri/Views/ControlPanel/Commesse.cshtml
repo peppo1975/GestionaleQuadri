@@ -187,7 +187,7 @@
     <div class="modal-contents">
         <div class="modal-header">
             @*<span class="close">&times;</span>*@
-            <h2 id="nome-azienda-modale">Modal Header</h2>
+            <h2 id="nome-cliente-modale">Modal Header</h2>
 
             <button type="button" class="btn-close close" data-bs-dismiss="modals" aria-label="Close"></button>
         </div>
@@ -204,7 +204,10 @@
 <script>
     class Commessa {
 
+         findCommessa = null;
+
         constructor() {
+           
             this.objects();
         }
 
@@ -212,6 +215,8 @@
             this.committente = {
                 nome_commessa: "John"
             };
+
+         
         }
 
         clearAnno() {
@@ -255,9 +260,12 @@
             var modal_body = document.getElementById("modal-body");
             var numeroRighe = 0;
 
+            let findCommessa = document.getElementById("findCommessa");
 
             Object.keys(modalList).forEach((i) => {
                 modalList[i].addEventListener('click', async function () {
+
+                    findCommessa.value = "";
 
                     modal_body.innerHTML = '<div class="spinner-border" role="status"><span class="visually-hidden"></span></div >';
                     nome_azienda_modale.innerHTML = "";
@@ -294,11 +302,17 @@
 
 
 
-                    let titoli = ["offerta n.", "committente", "note", "nome quadro", "ODL", "data apertura", "MRC"];
+                    //let titoli = ["offerta n.", "num_quadri", "committente", "note"];
+                    let titoli = {};
+                    titoli.indice_commessa = "offerta n.";
+                    titoli.num_quadri = "n. quadri";
+                    titoli.nome_commessa = "committente";
+                    titoli.data_ciclo_lavoro = "data ciclo lavoro";
+
                     let theadRow = document.createElement("tr");
-                    titoli.forEach((j) => {
+                    Object.keys(titoli).forEach((j) => {
                         let th = document.createElement("th");
-                        th.innerHTML = j;
+                        th.innerHTML = titoli[j];
                         theadRow.appendChild(th);
                     });
 
@@ -317,15 +331,15 @@
                         row.classList.add("pointer");
                         row.classList.add("text-green");
 
-                        titoli.forEach((j) => {
+                        Object.keys(titoli).forEach((j) => {
                             let td = document.createElement("td");
-                            if (j == titoli[0]) {
+                            if (j == "indice_commessa") {
                                 td.innerHTML = T.calcolaOfferta(anno, result[k].indice_commessa, azienda);
                             }
-
-                            if (j == titoli[1]) {
-                                td.innerHTML = result[k].nome_commessa;
+                            else {
+                                td.innerHTML = result[k][j]
                             }
+
                             row.appendChild(td)
                         });
                         tbody.appendChild(row);
@@ -357,6 +371,7 @@
 
             let row_commessa = document.getElementsByClassName("row_commessa");
             let modal2 = document.getElementById("myModal2");
+            let nome_cliente_modale = document.getElementById("nome-cliente-modale");
             let span2 = document.getElementsByClassName("close")[1];
             let commessa_n = "";
             let modal_body_2 = document.getElementById("modal-body-2");
@@ -366,10 +381,16 @@
                 row_commessa[i].addEventListener('click', async function (e) {
 
                     commessa_n = this.getAttribute("commessa_n");
+
                     const response = await fetch("/Commesse/CommessaDettaglio/" + commessa_n);
+
                     const result = await response.json();
-                    modal_body_2.innerHTML = await JSON.stringify(result);
-                    var t = new Tabella();
+
+                    //modal_body_2.innerHTML = await JSON.stringify(result);
+                    let t = new Tabella();
+
+                    await t.crea(result);
+
                     modal2.style.display = "block";
 
                 });
@@ -412,21 +433,51 @@
 </script>
 <script>
     class Tabella {
-        //constructor(result, modal_body) {
-        //    this.result = result;
-        //    this.modal_body = modal_body;
-        //    this.crea();
-        //}
+
         constructor() {
-            this.crea();
+
         }
 
 
-        crea() {
-            alert("test");
+
+        async crea(result) {
+
+            let title = {};
+            title = { "nome_quadro": "Nome quadro", "odl": "ODL", "data_ciclo_lavoro": "Data ciclo lavoro" }
+            let modal_body_2 = document.getElementById("modal-body-2");
+
+            let nome_cliente_modale = document.getElementById("nome-cliente-modale");
+
+            let table = document.createElement("table");
+            table.classList.add("table");
+            table.classList.add("table-striped");
+            table.classList.add("table-sm");
+            // let titleRow = document.createElement("tr");
+
+            let titleRow = await this.creaRighe(title, "th");
+            table.appendChild(titleRow);
+
+            for (var i = 0; i < Object.keys(result).length; i++) {
+                nome_cliente_modale.innerHTML = result[i].nome_commessa;
+                console.log(result[i]);
+                const rows = await this.creaRighe(result[i], "td");
+                table.appendChild(rows);
+            }
+
+            modal_body_2.innerHTML = "";
+            modal_body_2.appendChild(table);
         }
 
+        async creaRighe(rowJson, cella) {
+            let tr = document.createElement("tr");
+            Object.keys(rowJson).forEach(async function (i) {
+                const td = await document.createElement(cella);
+                td.innerHTML = rowJson[i];
+                tr.appendChild(td);
+            });
 
+            return tr;
+        }
     }
 </script>
 <script>

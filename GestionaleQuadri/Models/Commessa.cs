@@ -69,6 +69,9 @@
         public int indice_commessa { get; set; } = 0;
 
         public int anno {  get; set; } = 0; 
+
+        public int num_quadri { get; set; }
+        public string data_ciclo_lavoro { get; set; }
     }
 
 
@@ -77,5 +80,6 @@
         public string nome_quadro { get; set; } = string.Empty; 
         public string odl { get; set; }
         public string data_ciclo_lavoro { get; set; }
+        public string nome_commessa { get; set; }
     }
 }
